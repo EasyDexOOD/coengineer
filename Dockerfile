@@ -36,9 +36,9 @@ ADD . /home/coengineerd
 
 RUN \
     cd /home/coengineerd && \
+	rm -rf build/ && \
     mkdir -p build && \
     cd build && \
-    rm -rf *.* \
     cmake \
         -DCMAKE_BUILD_TYPE=Release \
         -DBUILD_STEEM_TESTNET=OFF \
