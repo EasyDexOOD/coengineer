@@ -1,0 +1,6 @@
+#ifndef STEEMIT_HARDFORK_0_2
+#define STEEMIT_HARDFORK_0_2 2
+
+#define STEEMIT_HARDFORK_0_2_TIME (STEEMIT_GENESIS_TIME.sec_since_epoch() + 61*60)
+#define STEEMIT_HARDFORK_0_2_VERSION hardfork_version( 0, 2 )
+#endif
